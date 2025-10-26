@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+  font-family: sans-serif;
+  background: #f8f8f8;
+  margin: 0;
+}
+
+header, footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+</style>
+<body>
+  <header>
+    <h1>Contactez-nous</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <form>
+    <input type="text" placeholder="Nom" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Envoyer</button>
+
+</form>
+  </main>
+  <footer>
+    <p>&copy; 2025 MonSite</p>
+  </footer>
+</body>
+</html>
